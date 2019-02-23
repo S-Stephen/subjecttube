@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase : {
+    apiKey: "AIzifonouraaSyBxwlUEzujE3FK2DBr-T-b82NETckhDSXA",
+    authDomain: "physicstube-5b573.firebaseapp.com",
+    databaseURL: "https://physicstube-5b573.firebaseio.com",
+    projectId: "physicstube-5b573",
+    storageBucket: "physicstube-5b573.appspot.com",
+    messagingSenderId: "419716766943"
+  }
 };
 
 /*

@@ -1,0 +1,80 @@
+{
+    "Astronomy and cosmology": {
+        "id": 1,
+        "Theories": {
+            "id": 11
+        },
+        "Models": {
+            "id": 10,
+            "Astronomical models and calculations":{
+              "id": 54,
+              "Inverse square law":{
+                "id": 207
+              },
+              "Mass-luminosity relation":{
+                "id":208
+              },
+              "Stars as black holes":{
+                "id":209
+              },
+              "Stefan's and Wien's law used together":{
+                "id":212
+              },
+              "Stefan's law":{
+                "id":210
+              },
+              "Wien's law, including graphs":{
+                "id":211
+              }
+            },
+            "Doppler effect":{
+              "id":56
+            },
+            "Hubble's law":{
+              "id":57
+            },
+            "Orbits, Kepler's laws":{
+              "id":55
+            }
+        },
+        "Objects": {
+            "id": 9
+        }
+    },
+    "Atomic Physics": {
+        "id": 2,
+        "Applications of nuclear physics": {
+            "id": 13
+        },
+        "Applications of quantum phenomena": {
+            "id": 16
+        },
+        "Nuclear physics": {
+            "id": 12
+        },
+        "Particle physics": {
+            "id": 14
+        },
+        "Quantum physics": {
+            "id": 15
+        }
+    },
+    "Electricity":{
+      "id":3
+    },
+    "Forces and motion":{
+      "id":4
+    },
+    "Fields":{
+      "id":5
+    },
+    "Physics skills":{
+      "id":6
+    },
+    "Solids, liquids and gases":{
+      "id":7
+    },
+    "Waves":{
+      "id":8
+    }
+}
