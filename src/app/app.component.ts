@@ -12,10 +12,14 @@ export interface Subject { id: number; }
 import {SlideMenuModule} from 'primeng/slidemenu';
 import {MenuItem} from 'primeng/api';
 
+// used to communicate across components
+import {CurrentsubjectService} from './currentsubject.service';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 
 export class AppComponent implements OnInit {
@@ -56,10 +60,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-    this.testdoc=this.db.doc('test/1');
-    this.test = this.testdoc.valueChanges();
+  //  this.testdoc=this.db.doc('test/1');
+  //  this.test = this.testdoc.valueChanges();
 
-    this.updatetest();
+  //  this.updatetest();
 
 
   }

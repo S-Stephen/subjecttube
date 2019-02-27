@@ -1,0 +1,23 @@
+
+<!--<iframe width="80%" [src]=getEmbedUrl(clips[0]) frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--
+<p-lightbox type="content">
+  <a class="group" href="#">
+      <img width="560" height="315" [src]=getVideoThumbnailURL(clips[0]) />
+  </a>
+
+  <iframe width="1120" height="630" [src]=getEmbedUrl(clips[0]) frameborder="0" allowfullscreen></iframe>
+</p-lightbox>
+-->
+
+<div class="debug">
+  <p-galleria [images]=carousel [showCaption]="false" [autoPlay]=false (onImageClicked)="onImageClicked($event)" ></p-galleria>
+
+
+  <p-dialog [(visible)]=display modal="modal" [responsive]="true">
+  <iframe width="1120" height="630" [src]=clipurl frameborder="0" allowfullscreen></iframe>
+  </p-dialog>
+
+</div>
+
+<div>carol {{ carousel | json }}</div>

@@ -11,6 +11,8 @@ For UI (menu + lightbox) consider using primeng https://www.primefaces.org/prime
 
 Followed: https://www.primefaces.org/primeng/#/setup for primeng setup and https://github.com/primefaces/primeng-quickstart-cli for a component (myprimeng)
 
+Prime flexgrid for layout: https://www.primefaces.org/primeng/#/flexgrid
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

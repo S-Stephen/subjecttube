@@ -3,4 +3,10 @@
 <h3>Browse by subject</h3>
 <p-panelMenu [multiple]="false" [model]="items" [style]="{'width':'300px'}"></p-panelMenu>
 
+Current item: {{ item }}
+<!--
+<h3>The items from our doc:</h3>
 
+<div *ngFor="let item of items">{{ item | json }}</div>
+<button (click)="updatetest()">update</button>
+-->

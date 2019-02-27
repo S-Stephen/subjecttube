@@ -1,6 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
-  <h1>Physicstube<sup>alpha</sup></h1>
-  <app-subjectmenu></app-subjectmenu>
+
+  <div class="p-grid p-dir-col">
+      <div class="p-col">
+        <div class="box"><h1>Title</h1></div><!--<h1>Physicstube<sup>alpha</sup></h1>-->
+      </div>
+  </div>
+
+  <div class="p-grid">
+      <div class="p-col-4">
+
+          <app-subjectmenu></app-subjectmenu>
+
+      </div>
+      <div class="p-col-6">
+          <div class="box">
+            <router-outlet>Centre</router-outlet>
+          </div>
+      </div>
+      <div class="p-col-2">
+          <div class="box">RHS</div>
+      </div>
+  </div>
+  <!--will show the routed component-->
 
   <h3>Subject id : {{ (subject |async)?.id}}</h3>
 

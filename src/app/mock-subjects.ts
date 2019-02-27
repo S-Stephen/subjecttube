@@ -3,7 +3,7 @@ import {MenuItem} from 'primeng/api';
 
 export const SUBJECTS: MenuItem[] =
 [
-  {label: "Astronomy and cosmology",
+  {label: "Astronomy and cosmology 3",
   items : [
       {label: "Theories"},
       {label: "Models",
@@ -22,7 +22,7 @@ export const SUBJECTS: MenuItem[] =
         {label:"Orbits, Kepler's laws"}
           ]
       },
-      {label: "Objects"},
+      {label: "Objects" } ,
       {label: "Theories"}
     ]
   },
