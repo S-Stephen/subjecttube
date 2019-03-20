@@ -13,6 +13,18 @@ Followed: https://www.primefaces.org/primeng/#/setup for primeng setup and https
 
 Prime flexgrid for layout: https://www.primefaces.org/primeng/#/flexgrid
 
+## Developing on gitpod:
+
+Fire up gitpod by visiting http://gitpod.io#https://github.com/S-Stephen/subjecttube
+
+In the Terminal window (below the editor), to startup the development server type:
+
+```
+npm install
+npm run-script gpstart
+```
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
