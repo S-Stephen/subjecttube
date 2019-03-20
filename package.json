@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "gpstart": "ng serve --open --host 0.0.0.0 --port 4200 --disable-host-check",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -28,6 +29,7 @@
     "primeng": "^7.0.5",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
+    "update": "^0.7.4",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
