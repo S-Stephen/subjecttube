@@ -15,6 +15,8 @@ import {MenuItem} from 'primeng/api';
 // used to communicate across components
 import {CurrentsubjectService} from './currentsubject.service';
 
+import {ConfigService} from './config.service';
+
 
 @Component({
   selector: 'app-root',
@@ -38,8 +40,10 @@ export class AppComponent implements OnInit {
   test1: Observable<any>;
 
   items: MenuItem[];
+  config: {};
 
-  constructor(private db: AngularFirestore ) { // }, private db2: AngularFireDatabase) {
+  constructor(private db: AngularFirestore,
+              private configService: ConfigService ) { // }, private db2: AngularFireDatabase) {
 /*    this.subjects = db.collection('subjects').valueChanges();
     this.categories = db.collection('categories').valueChanges();
 
@@ -65,9 +69,14 @@ export class AppComponent implements OnInit {
 
   //  this.updatetest();
 
-
+      this.getConfig();
   }
 
+
+  getConfig(): void {
+    this.configService.getSubjects()
+        .subscribe(config => this.config = config);
+  }
 
   updatetest(){
     // this.subjectDoc.update(subject)
@@ -135,7 +144,7 @@ export class AppComponent implements OnInit {
       {label:"Solids, liquids and gases"},
       {label:"Waves"},
     ];
-    
+
     this.testdoc.set({nodes2})
   }
 
