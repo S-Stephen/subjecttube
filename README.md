@@ -20,7 +20,6 @@ Fire up gitpod by visiting http://gitpod.io#https://github.com/S-Stephen/subject
 In the Terminal window (below the editor), to startup the development server type:
 
 ```
-npm install
 npm run-script gpstart
 ```
 

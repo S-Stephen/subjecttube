@@ -2,4 +2,4 @@ ports:
     - port: 4200
       onOpen: open-browser
 tasks:
-  - init: npm install
+  - init: yes | npm -y install
